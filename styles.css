@@ -1,0 +1,227 @@
+body{
+  font-family: 'Nunito', serif;
+  margin: 0;
+  padding: 0;
+/*   width: 950px; */
+}
+
+header{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+  background-color: #3d5a80;
+  padding: 0 25px;
+}
+
+nav{
+  background-color: #ee6c4d;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px
+}
+
+.nav-link:hover{
+  cursor: pointer;
+  color: blue;
+  font-weight: 900;
+}
+
+#tinky{
+  display: flex;
+  border-radius: 50%;
+  border: solid 3px yellow;
+  height:100px;
+  width: 100px;
+ object-fit: cover;
+}
+
+h1{
+  margin-left: 50px;
+  font-weight: 800;
+  color: white;
+  text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+
+#logo{
+  display: flex;
+  align-content: center;
+}
+/* this is the circular highlighted area   */
+#cart-icon{
+  display: flex;
+  flex-direction: column;
+  height: 75x;
+  width: 97px;
+  border-radius: 50%;
+  background-color: #ee6c4d;
+  justify-content: space-around;
+  border: solid 3px yellow;
+}
+/* this is the cart icon   */
+#shopping-cart{
+  height:25px;
+  width: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/* this is the text under the cart icon   */
+#cart-count{
+  display: flex;
+  align-items: center;
+/*     justify-content: center; */
+  flex-direction: column;
+  font-family: 'Spectral', serif;
+  font-weight: 400;
+}
+
+#cart-icon:hover{
+  cursor: pointer;
+  color: blue;
+  box-shadow: 0 0 15px yellow;
+}
+
+#search, #search-bar, #search-btn{
+  font-family: 'spectral', serif;
+  font-weight: 200;
+  border-radius: 10px;
+}
+
+#search-btn:hover{
+  cursor: pointer;
+  color: blue;
+  background-color: yellow;
+  box-shadow: 0 0 15px yellow;
+}
+main{
+  background-color:lightcyan;
+}
+
+.adopt{
+  background-color: #293241;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.adopt-btn, .cart-btn, #sign-up{
+ border-radius: 10px;
+ background-color: #ee6c4d;
+ color: white;
+ font-weight: 600; 
+}
+
+.adopt-btn:hover{
+  cursor: pointer;
+  color: blue;
+  font-weight: 800;
+  box-shadow: 0 0 15px yellow;
+}
+
+.cart-btn:hover{
+  cursor: pointer;
+  color: blue;
+  font-weight: 800;
+  box-shadow: 0 0 15px yellow;
+}
+
+#sign-up:hover{
+  cursor: pointer;
+  color: blue;
+  font-weight: 800;
+  box-shadow: 0 0 15px yellow;
+}
+
+.rescues{
+  display: flex;
+  justify-content: space-around; 
+  padding: 15px;
+} 
+
+.title{
+  margin: 0px;
+/*     background-color: #98c1d9; */
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ee6c4d;
+}
+
+.about-me{
+  margin: 15px;
+}
+
+.animal-profile-pic {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+.animal-card{
+  background-color: #293241;
+  height: 300px;
+  width: 175px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.product-pic{
+height: 160px;
+width: 160px;
+border-radius: 10px;
+}
+.product-card{
+background-color: #293241;
+height:300px;
+width: 175px;
+border-radius: 10px;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-top: 15px;
+padding-bottom: 10px;
+object-fit: cover;
+}
+
+.favorites, .toys, .foods, .training, .grooming{
+display: flex;
+justify-content: space-around;
+padding: 15px;
+}
+
+.email-sign-up{
+display: flex;
+align-items: center;
+width: 450px;
+justify-content: space-between;
+}
+
+input {
+width: 120px;
+}
+
+footer{
+background-color: #3D5A80;
+height: 50px;
+display: flex;
+Color: white;
+align-content: center;
+justify-content: space-between;
+padding: 0px 30px;
+font-family: Nunito;
+font-weight:500
+}
